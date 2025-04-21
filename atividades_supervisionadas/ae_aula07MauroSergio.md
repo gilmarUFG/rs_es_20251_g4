@@ -10,14 +10,14 @@ A simulação de comportamentos ou interfaces do sistema é uma boa forma de gar
 
 O uso de diagramas de casos permite representar graficamente as ações que cada ator do sistema conseguirá realizar. Essa abordagem evidencia possíveis mal-entendidos em relação a permissões de acesso e responsabilidades.
 
-![alt text](image.png)
+![Minha imagem](https://drive.google.com/uc?export=view&id=1bFN7033c_xDNU8MMUj5dOb853Fw986tA)
 
 ## 2.
 
 ### Avaliações e comentários armazenados em blockchain para evitar manipulação.
 
 **Técnica de especificação: Modelagem UML (Diagrama de Sequência)**
-![alt text](image-1.png)
+![Minha imagem](https://drive.google.com/uc?export=view&id=1EglWfC14ZOWOGnsbhNC1CzYjGKtfkQ_7)
 
 ### A plataforma deve permitir que o usuário devolva um produto comprado e receba seu dinheiro na mesma forma do pagamento efetuado
 
