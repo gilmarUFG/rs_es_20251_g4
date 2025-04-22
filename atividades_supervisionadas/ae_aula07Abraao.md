@@ -1,10 +1,5 @@
 # Atividade Extraordinária - Aula 07
 
-**Aluno:** [Seu Nome]  
-**Data de Entrega:** 23/04/2025
-
----
-
 ## Técnicas para Especificação de Requisitos
 
 As técnicas de especificação de requisitos são ferramentas importantes para descrever de maneira clara e compreensível as necessidades dos usuários, além de garantir que os desenvolvedores compreendam as funcionalidades a serem implementadas. A seguir, apresento duas técnicas comuns de especificação de requisitos, suas aplicações e as vantagens e desvantagens de cada uma.
@@ -64,28 +59,29 @@ Com base no cenário que meu grupo é responsável pela modelagem, especificarei
 
 ### Requisito A – Utilizando Histórias de Usuário
 
-**Requisito:** O aplicativo deve usar IA para identificar padrões no diário ou nas interações do usuário que possam indicar gatilhos de estresse ou ansiedade, e proativamente sugerir conteúdos de psicoeducação ou exercícios de enfrentamento específicos para esses gatilhos.
+**Requisito:** O sistema deve oferecer um mecanismo de autentificação para garantir que os vendedores sejam legítimos e reduzir o risco de fraude.
 
 **História de Usuário:**
-- **Como** usuário que está tentando monitorar meu estresse,
-- **Quero** que o aplicativo analise meu diário e interações para identificar sinais de ansiedade,
-- **Para que** eu receba sugestões proativas de conteúdos educativos ou exercícios de enfrentamento que me ajudem a gerenciar minha saúde mental.
+- **Como** vendedor no sistema de marketplace,  
+- **Quero** autenticar minha identidade de forma segura,  
+- **Para que** o sistema garanta que sou um vendedor legítimo e ajude a reduzir o risco de fraude.
 
 ### Requisito B – Utilizando Casos de Uso
 
-**Requisito:** O sistema deve fazer sugestões de práticas de saúde mental para o paciente.
+**Requisito:** A plataforma deve possibilitar a realização de pagamentos utilizando criptomoedas e outras formas de pagamento descentralizadas.
 
 **Caso de Uso:**
-- **Atores:** Usuário (paciente), Sistema.
-- **Objetivo:** Fazer sugestões personalizadas de práticas de saúde mental.
+- **Atores:** Usuário (comprador), Sistema, Processador de pagamento (plataforma de criptomoedas).
+- **Objetivo:** Realizar pagamentos utilizando criptomoedas ou outras formas de pagamento descentralizadas.
 - **Fluxo Principal:**
-  1. O usuário acessa a seção de sugestões de saúde mental no aplicativo.
-  2. O sistema coleta dados sobre o estado emocional atual do usuário (por exemplo, através de um questionário ou diário).
-  3. O sistema processa os dados e gera uma lista de práticas recomendadas, como meditações, exercícios de respiração ou sugestões de terapia.
-  4. O usuário visualiza as sugestões e escolhe uma delas para realizar.
+  1. O comprador acessa a página de pagamento da plataforma.
+  2. O sistema oferece opções de pagamento, incluindo criptomoedas e formas descentralizadas.
+  3. O comprador escolhe a forma de pagamento desejada (por exemplo, Bitcoin, Ethereum, etc.).
+  4. O sistema processa o pagamento através da plataforma de pagamento descentralizada.
+  5. O comprador recebe a confirmação de pagamento e a transação é finalizada.
 - **Fluxos Alternativos:**
-  1. Se o usuário não fornecer dados suficientes sobre seu estado emocional, o sistema sugere práticas genéricas.
-  2. Se o usuário não aceitar as sugestões, o sistema oferece a opção de alterar as preferências para novas sugestões.
+  1. Se a transação com criptomoeda falhar, o sistema oferece opções alternativas de pagamento descentralizado.
+  2. Se o comprador não possuir criptomoeda suficiente, o sistema avisa o comprador e permite a escolha de outra forma de pagamento.
 
 ---
 
@@ -94,3 +90,5 @@ Com base no cenário que meu grupo é responsável pela modelagem, especificarei
 - [ACERTBR - Técnicas de Elicitação de Requisitos](https://acertbr.com.br/tecnicas-de-elicitacao-de-requisitos/)
 - [UNISINOS - Técnicas de Elicitação de Requisitos](https://unisinos.br/repositoriocanvas/Eng_Requisitos/html_Eng_Requisitos_tec_elicitacao/index.html)
 - [UFSC - Guia de Técnicas de Elicitação de Requisitos](https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos)
+
+---
