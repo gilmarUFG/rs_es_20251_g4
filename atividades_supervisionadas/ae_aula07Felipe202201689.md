@@ -53,8 +53,8 @@ Indicada quando o sistema precisa atender critérios de qualidade específicos, 
   4. O ator realiza uma transação de teste entre as blockchains.
   5. O sistema confirma a interoperabilidade com sucesso.
 - **Fluxos alternativos:**
-  - 3a. Falha na conexão: o sistema notifica o erro e oferece alternativas de diagnóstico.
-  - 4a. Transação de teste falha: logs são gerados e o suporte técnico é notificado.
+  - Falha na conexão: o sistema notifica o erro e oferece alternativas de diagnóstico.
+  - Transação de teste falha: logs são gerados e o suporte técnico é notificado.
 - **Pós-condição:** A interoperabilidade está habilitada entre as redes selecionadas.
 
 ---
