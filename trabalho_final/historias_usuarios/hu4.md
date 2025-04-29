@@ -8,10 +8,10 @@
 
 #### Critérios de Aceitação
 
-- [ ] Todas as atualizações na entrega são disponibilizadas para o cliente.
+- [ ] O usuário deve conseguir visualizar o histórico completo de atualizações do pedido, em ordem cronológica, com marcação de data/hora e status atual.
 - [ ] A cidade e estado em que o pacote se encontra deverão constar em toda operação exibida.
 - [ ] O sistema deve registrar as atualizações na blockchain e garantir que o status da entrega não possa ser alterado, apenas adicionado um novo evento com timestamp.
 
 #### Notas Técnicas
 
-- Integração com a API da transportadora.
+- Necessária integração com a API da transportadora.
