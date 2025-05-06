@@ -1,0 +1,83 @@
+@startuml ChainBuy
+top to bottom direction
+
+skinparam defaultFontName "Arial"
+skinparam defaultFontSize 14
+' Classes base
+class Usuário {
+    -nome: String
+    -email: String
+}
+
+class Produto {
+    
+}
+
+class EspecificaçãoProduto
+
+class Cliente {
+    - enderecoDeEntrega
+}
+
+class Vendedor {
+    
+}
+
+class Pedido {
+    -descricao: String
+
+}
+
+class PedidoItem{
+    -quantidade: int
+    -precoUnitario: double
+}
+
+class MetodoDePagamento{
+
+}
+
+class Carrinho
+
+class CarteiraDigital
+
+class Cartão
+
+class Entrega
+
+class Review
+
+class TransaçaoBlockChain{
+    -txHash
+    -payload
+    -timestamp
+    -status
+}
+' Herança
+MetodoDePagamento <|-- Cartão
+MetodoDePagamento <|-- CarteiraDigital
+Usuário <|-- Cliente
+Usuário <|-- Vendedor
+
+' Associação
+Vendedor --> Produto : anuncia >
+Cliente --> Pedido : realiza >
+Cliente "1" --> "1" Carrinho : possui >
+Pedido --> MetodoDePagamento : possui >
+Pedido --> TransaçaoBlockChain
+Review --> TransaçaoBlockChain
+Entrega --> TransaçaoBlockChain
+CarteiraDigital --> TransaçaoBlockChain
+PedidoItem -- Produto
+Carrinho --> Pedido : gera >
+Cliente --> Review : escreve >
+Review -- Produto : avalia >
+Pedido -- Entrega
+' Agregação
+Carrinho o-- PedidoItem : contém >
+
+' Composição
+'*--
+Produto *-- EspecificaçãoProduto
+Pedido *-- PedidoItem: contém >
+@enduml
