@@ -16,8 +16,10 @@ class Produto {
 class EspecificaçãoProduto
 
 class Cliente {
-    - enderecoDeEntrega
+    
 }
+
+class EnderecoDeEntrega
 
 class Vendedor {
     
@@ -53,31 +55,31 @@ class TransaçaoBlockChain{
     -timestamp
     -status
 }
-' Herança
+
 MetodoDePagamento <|-- Cartão
 MetodoDePagamento <|-- CarteiraDigital
 Usuário <|-- Cliente
 Usuário <|-- Vendedor
 
-' Associação
-Vendedor --> Produto : anuncia >
-Cliente --> Pedido : realiza >
-Cliente "1" --> "1" Carrinho : possui >
-Pedido --> MetodoDePagamento : possui >
-Pedido --> TransaçaoBlockChain
-Review --> TransaçaoBlockChain
-Entrega --> TransaçaoBlockChain
-CarteiraDigital --> TransaçaoBlockChain
-PedidoItem -- Produto
-Carrinho --> Pedido : gera >
-Cliente --> Review : escreve >
-Review -- Produto : avalia >
-Pedido -- Entrega
-' Agregação
-Carrinho o-- PedidoItem : contém >
+Vendedor "1" --> "0..*" Produto : anuncia >
+Cliente "1" --> "0..*" Pedido : realiza >
+PedidoItem "1" -- "1..*" Produto
+Carrinho "1" --> "1" Pedido : gera >
+Cliente "1" --> "0..*" Review : escreve >
+Pedido "1" -- "1" Entrega
 
-' Composição
-'*--
-Produto *-- EspecificaçãoProduto
-Pedido *-- PedidoItem: contém >
+Produto "1" o-- "0..*" Review : recebe >
+Carrinho "1" o-- "0..*" PedidoItem : contém >
+CarteiraDigital o-- TransaçaoBlockChain : Realiza
+Entrega "1" o-- "1" EnderecoDeEntrega
+
+Entrega "1" ..> "1..*" TransaçaoBlockChain
+Pedido "1" ..> "1" MetodoDePagamento : utiliza >
+Pedido "1" ..> "1..*" TransaçaoBlockChain
+Review "1" ..> "1" TransaçaoBlockChain
+
+Cliente "1" *-- "0..*" EnderecoDeEntrega : possui >
+Cliente "1" *-- "1" Carrinho : possui >
+Produto "1" *-- "1" EspecificaçãoProduto
+Pedido "1" *-- "1..*" PedidoItem: contém >
 @enduml
