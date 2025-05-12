@@ -1,4 +1,4 @@
-### História de Usuário 2
+### História de Usuário 6
 
 **Como** vendedor do ecommerce
 **Quero** que os meus produtos cujo estoque tenha acabado saiam automaticamente de comercialização
