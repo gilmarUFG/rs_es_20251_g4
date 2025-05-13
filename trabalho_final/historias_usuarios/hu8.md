@@ -1,4 +1,4 @@
-### História de Usuário 2
+### História de Usuário 8
 
 **Como** [comprador da plataforma]  
 **Quero** [visualizar as especificações completas de um produto na página de detalhes]  
