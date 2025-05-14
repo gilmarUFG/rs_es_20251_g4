@@ -10,16 +10,28 @@ class Usuário {
 }
 
 class Produto {
-    
+    -nome: String    
+    -preco: BigDecimal
+    -estoque: Integer
 }
 
-class EspecificaçãoProduto
+class EspecificaçãoProduto {
+    -fabricante: String
+    -formato: enum
+    -peso: BigDecimal
+    -altura: BigDecimal
+    -largura: BigDecimal
+    -comprimento: BigDecimal
+    -diametro: BigDecimal
+    -garantiaExpira: Date
+    -marca: String
+}
 
 class Cliente {
     
 }
 
-class EnderecoDeEntrega
+class EnderecoEntrega
 
 class Vendedor {
     
@@ -31,11 +43,11 @@ class Pedido {
 }
 
 class PedidoItem{
-    -quantidade: int
+    -quantidade: Integer
     -precoUnitario: double
 }
 
-class MetodoDePagamento{
+class MetodoPagamento {
 
 }
 
@@ -49,15 +61,15 @@ class Entrega
 
 class Review
 
-class TransaçaoBlockChain{
+class TransaçaoBlockChain {
     -txHash
     -payload
     -timestamp
     -status
 }
 
-MetodoDePagamento <|-- Cartão
-MetodoDePagamento <|-- CarteiraDigital
+MetodoPagamento <|-- Cartão
+MetodoPagamento <|-- CarteiraDigital
 Usuário <|-- Cliente
 Usuário <|-- Vendedor
 
@@ -71,14 +83,14 @@ Pedido "1" -- "1" Entrega
 Produto "1" o-- "0..*" Review : recebe >
 Carrinho "1" o-- "0..*" PedidoItem : contém >
 CarteiraDigital o-- TransaçaoBlockChain : Realiza
-Entrega "1" o-- "1" EnderecoDeEntrega
+Entrega "1" o-- "1" EnderecoEntrega
 
 Entrega "1" ..> "1..*" TransaçaoBlockChain
-Pedido "1" ..> "1" MetodoDePagamento : utiliza >
+Pedido "1" ..> "1" MetodoPagamento : utiliza >
 Pedido "1" ..> "1..*" TransaçaoBlockChain
 Review "1" ..> "1" TransaçaoBlockChain
 
-Cliente "1" *-- "0..*" EnderecoDeEntrega : possui >
+Cliente "1" *-- "0..*" EnderecoEntrega : possui >
 Cliente "1" *-- "1" Carrinho : possui >
 Produto "1" *-- "1" EspecificaçãoProduto
 Pedido "1" *-- "1..*" PedidoItem: contém >
