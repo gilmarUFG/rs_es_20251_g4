@@ -3,6 +3,7 @@
 **Como** administrador da plataforma
 **Quero** que todas as transações sejam registradas automaticamente 
 **Para** garantir a rastreabilidade, autenticidade e segurança das operações.
+
 ---
 
 #### Critérios de Aceitação
