@@ -5,115 +5,116 @@ skinparam defaultFontName "Arial"
 skinparam defaultFontSize 14
 ' Classes base
 class Usuário {
-    -nome: String
-    -email: String
+    -nome
+    -email
 }
 
 class Produto {
-    -nome: String    
-    -preco: BigDecimal
-    -estoque: Integer
+    -nome   
+    -preco
+    -estoque
 }
 
 class EspecificaçãoProduto {
-    -fabricante: String
-    -formato: enum
-    -peso: BigDecimal
-    -altura: BigDecimal
-    -largura: BigDecimal
-    -comprimento: BigDecimal
-    -diametro: BigDecimal
-    -garantiaExpira: Date
-    -marca: String
+    -fabricante
+    -formato
+    -peso
+    -altura
+    -largura
+    -comprimento
+    -diametro
+    -prazoGarantia
+    -informacoesAdicionais
+    -marca
 }
 
 class Cliente {
-    -id: Long
-    -nome: String
-    -email: String
-    -senha: String
-    -telefone: String
+    -id
+    -nome
+    -email
+    -senha
+    -telefone
 }
 
 class EnderecoEntrega {
-    -id: Long
-    -logradouro: String
-    -numero: String
-    -complemento: String
-    -bairro: String
-    -cidade: String
-    -estado: String
-    -cep: String
+    -id
+    -logradouro
+    -numero
+    -complemento
+    -bairro
+    -cidade
+    -estado
+    -cep
 }
 
 class Vendedor {
-    -id: Long
-    -nome: String
-    -email: String
-    -senha: String
-    -cnpj: String
-    -telefone: String
+    -id
+    -nome
+    -email
+    -senha
+    -cnpj
+    -telefone
 }
 
 class Pedido {
-    -id: Long
-    -descricao: String
-    -dataCriacao: Date
-    -status: String
-    -valorTotal: BigDecimal
+    -id
+    -descricao
+    -dataCriacao
+    -status
+    -valorTotal
 }
 
 class PedidoItem {
-    -id: Long
-    -quantidade: Integer
-    -precoUnitario: BigDecimal
+    -id
+    -quantidade
+    -precoUnitario
 }
 
 class MetodoPagamento {
-    -id: Long
-    -tipo: String
+    -id
+    -tipo
 }
 
 class Carrinho {
-    -id: Long
-    -dataCriacao: Date
+    -id
+    -dataCriacao
 }
 
 class CarteiraDigital {
-    -id: Long
-    -enderecoWallet: String
-    -saldo: BigDecimal
+    -id
+    -enderecoWallet
+    -saldo
 }
 
 class Cartão {
-    -id: Long
-    -numero: String
-    -nomeTitular: String
-    -validade: String
-    -cvv: String
-    -bandeira: String
+    -id
+    -numero
+    -nomeTitular
+    -validade
+    -cvv
+    -bandeira
 }
 
 class Entrega {
-    -id: Long
-    -status: String
-    -dataPrevista: Date
-    -codigoRastreamento: String
+    -id
+    -status
+    -dataPrevista
+    -codigoRastreamento
 }
 
 class Review {
-    -id: Long
-    -nota: Integer
-    -comentario: String
-    -data: Date
+    -id
+    -nota
+    -comentario
+    -data
 }
 
 class TransaçaoBlockChain {
-    -id: Long
-    -txHash: String
-    -payload: String
-    -timestamp: Date
-    -status: String
+    -id
+    -txHash
+    -payload
+    -timestamp
+    -status
 }
 
 MetodoPagamento <|-- Cartão
@@ -123,6 +124,7 @@ Usuário <|-- Vendedor
 
 Vendedor "1" --> "0..*" Produto : anuncia >
 Cliente "1" --> "0..*" Pedido : realiza >
+PedidoItem "1" -- "1" Produto
 Produto "1" -- "0..*" PedidoItem
 Carrinho "1" --> "1" Pedido : gera >
 Cliente "1" --> "0..*" Review : escreve >
