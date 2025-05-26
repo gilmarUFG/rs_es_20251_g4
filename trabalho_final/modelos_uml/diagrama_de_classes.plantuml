@@ -107,11 +107,10 @@ Usuário <|-- Vendedor
 
 Vendedor "1" --> "0..*" Produto : anuncia >
 Cliente "1" --> "0..*" Pedido : realiza >
-PedidoItem "1" -- "1" Produto
 Produto "1" -- "0..*" PedidoItem
 Carrinho "1" --> "1" Pedido : gera >
 Cliente "1" --> "0..*" Review : escreve >
-Pedido "1" -- "1" Entrega
+Pedido "1" --> "1" Entrega : gera >
 
 Produto "1" o-- "0..*" Review : recebe >
 Carrinho "1" o-- "0..*" PedidoItem : contém >
