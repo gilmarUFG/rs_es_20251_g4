@@ -28,44 +28,92 @@ class EspecificaçãoProduto {
 }
 
 class Cliente {
-    
+    -id: Long
+    -nome: String
+    -email: String
+    -senha: String
+    -telefone: String
 }
 
-class EnderecoEntrega
+class EnderecoEntrega {
+    -id: Long
+    -logradouro: String
+    -numero: String
+    -complemento: String
+    -bairro: String
+    -cidade: String
+    -estado: String
+    -cep: String
+}
 
 class Vendedor {
-    
+    -id: Long
+    -nome: String
+    -email: String
+    -senha: String
+    -cnpj: String
+    -telefone: String
 }
 
 class Pedido {
+    -id: Long
     -descricao: String
-
+    -dataCriacao: Date
+    -status: String
+    -valorTotal: BigDecimal
 }
 
-class PedidoItem{
+class PedidoItem {
+    -id: Long
     -quantidade: Integer
-    -precoUnitario: double
+    -precoUnitario: BigDecimal
 }
 
 class MetodoPagamento {
-
+    -id: Long
+    -tipo: String
 }
 
-class Carrinho
+class Carrinho {
+    -id: Long
+    -dataCriacao: Date
+}
 
-class CarteiraDigital
+class CarteiraDigital {
+    -id: Long
+    -enderecoWallet: String
+    -saldo: BigDecimal
+}
 
-class Cartão
+class Cartão {
+    -id: Long
+    -numero: String
+    -nomeTitular: String
+    -validade: String
+    -cvv: String
+    -bandeira: String
+}
 
-class Entrega
+class Entrega {
+    -id: Long
+    -status: String
+    -dataPrevista: Date
+    -codigoRastreamento: String
+}
 
-class Review
+class Review {
+    -id: Long
+    -nota: Integer
+    -comentario: String
+    -data: Date
+}
 
 class TransaçaoBlockChain {
-    -txHash
-    -payload
-    -timestamp
-    -status
+    -id: Long
+    -txHash: String
+    -payload: String
+    -timestamp: Date
+    -status: String
 }
 
 MetodoPagamento <|-- Cartão
@@ -75,7 +123,7 @@ Usuário <|-- Vendedor
 
 Vendedor "1" --> "0..*" Produto : anuncia >
 Cliente "1" --> "0..*" Pedido : realiza >
-PedidoItem "1" -- "1..*" Produto
+Produto "1" -- "0..*" PedidoItem
 Carrinho "1" --> "1" Pedido : gera >
 Cliente "1" --> "0..*" Review : escreve >
 Pedido "1" -- "1" Entrega
