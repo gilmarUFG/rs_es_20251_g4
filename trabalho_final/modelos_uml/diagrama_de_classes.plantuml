@@ -7,6 +7,8 @@ skinparam defaultFontSize 14
 class Usuário {
     -nome
     -email
+    -senha
+    -telefone
 }
 
 class Produto {
@@ -28,16 +30,11 @@ class EspecificaçãoProduto {
     -marca
 }
 
-class Cliente {
-    -id
-    -nome
-    -email
-    -senha
-    -telefone
+class Cliente {   
+    -cpf
 }
 
-class EnderecoEntrega {
-    -id
+class EnderecoEntrega {   
     -logradouro
     -numero
     -complemento
@@ -47,17 +44,11 @@ class EnderecoEntrega {
     -cep
 }
 
-class Vendedor {
-    -id
-    -nome
-    -email
-    -senha
+class Vendedor { 
     -cnpj
-    -telefone
 }
 
 class Pedido {
-    -id
     -descricao
     -dataCriacao
     -status
@@ -65,29 +56,24 @@ class Pedido {
 }
 
 class PedidoItem {
-    -id
     -quantidade
     -precoUnitario
 }
 
 class MetodoPagamento {
-    -id
     -tipo
 }
 
 class Carrinho {
-    -id
     -dataCriacao
 }
 
 class CarteiraDigital {
-    -id
     -enderecoWallet
     -saldo
 }
 
 class Cartão {
-    -id
     -numero
     -nomeTitular
     -validade
@@ -96,21 +82,18 @@ class Cartão {
 }
 
 class Entrega {
-    -id
     -status
     -dataPrevista
     -codigoRastreamento
 }
 
 class Review {
-    -id
     -nota
     -comentario
     -data
 }
 
 class TransaçaoBlockChain {
-    -id
     -txHash
     -payload
     -timestamp
