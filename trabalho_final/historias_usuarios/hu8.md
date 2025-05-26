@@ -1,8 +1,8 @@
 ### História de Usuário 8
 
-**Como** comprador da plataforma
-**Quero** visualizar as especificações completas de um produto na página de detalhes 
-**Para**  tomar decisões de compra mais informadas com base nas características reais do item
+**Como** comprador da plataforma  
+**Quero** visualizar as especificações completas de um produto na página de detalhes  
+**Para**  tomar decisões de compra mais informadas com base nas características reais do item.
 
 ---
 

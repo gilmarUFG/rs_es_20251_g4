@@ -2,7 +2,7 @@
 
 **Como** cliente do sistema  
 **Quero** que o estoque dos produtos seja atualizado automaticamente após cada compra  
-**Para** evitar a venda de produtos fora de estoque e garantir informações atualizadas
+**Para** evitar a venda de produtos fora de estoque e garantir informações atualizadas.
 
 ---
 
