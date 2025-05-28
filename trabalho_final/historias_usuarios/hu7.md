@@ -1,6 +1,6 @@
 ## História de Usuário 7
 
-**Como** comprador de um e-commerce  
+**Como** comprador do e-commerce  
 **Quero** visualizar o histórico imutável de transações de um pedido registrado na blockchain  
 **Para** ter transparência e confiança no acompanhamento do status da minha compra
 

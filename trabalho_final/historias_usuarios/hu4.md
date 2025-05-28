@@ -1,6 +1,6 @@
 ### História de Usuário 4
 
-**Como** cliente do ecommerce  
+**Como** cliente do e-commerce  
 **Quero** visualizar informações acerca do andamento do meu pedido em tempo real  
 **Para** acompanhar o processo de entrega.
 

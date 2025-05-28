@@ -13,4 +13,5 @@
 - [ ]  Caso o registro de uma avaliação na blockchain falhe, o sistema deve armazená-la como pendente e realizar novas tentativas automáticas de registro a cada 3 horas, por no máximo 5 vezes. Caso a transação continue falhando, o sistema deve notificá-la como erro crítico no painel administrativo.
 
 #### Notas Técnicas
-
+- Utilizar uma fila de mensagens para processar o registro das avaliações na blockchain de forma assíncrona.
+- Utilizar transações atômicas para evitar inconsistências entre o banco de dados e a blockchain.

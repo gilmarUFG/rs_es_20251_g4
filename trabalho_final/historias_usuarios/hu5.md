@@ -1,6 +1,6 @@
 ### História de Usuário 5
 
-**Como** cliente de um e-commerce  
+**Como** cliente do e-commerce  
 **Quero** cadastrar minha carteira digital na plataforma e utilizar criptomoedas para realizar pagamentos  
 **Para** ter uma alternativa segura, descentralizada e prática de pagamento.
 
