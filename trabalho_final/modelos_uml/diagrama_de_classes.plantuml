@@ -46,6 +46,7 @@ class EnderecoEntrega {
 
 class Vendedor { 
     -cnpj
+    -statusVerificacao
 }
 
 class Pedido {
@@ -98,6 +99,7 @@ class TransaçaoBlockChain {
     -payload
     -timestamp
     -status
+    -tipo
 }
 
 MetodoPagamento <|-- Cartão
