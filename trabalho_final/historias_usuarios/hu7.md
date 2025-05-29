@@ -13,7 +13,7 @@
 
 ### Notas Técnicas
 
-- Integrar com API de blockchain para registrar e consultar transações.  
-- Utilizar smart contracts ou serviços de terceira parte para registrar eventos relevantes na blockchain.  
-- Armazenar localmente os hashes das transações vinculados aos pedidos no banco de dados.  
-- Suporte inicial para visualização via blockchain do Bitcoin (BTC).
+- Integrar com API de blockchain para registrar e consultar transações.
+- Utilizar smart contracts ou serviços de terceiros para registrar eventos relevantes na blockchain.
+- Armazenar localmente os hashes das transações vinculados aos pedidos no banco de dados.
+- A estratégia de blockchain adotada para registro de eventos será definida conforme requisitos de custo, escalabilidade e privacidade. 

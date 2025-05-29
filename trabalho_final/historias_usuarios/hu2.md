@@ -8,7 +8,7 @@
 
 #### Critérios de Aceitação
 
-- [ ] Todas as transações relevantes devem ser registradas na blockchain automaticamente.
+- [ ] Todas as transações relevantes (incluindo vendas concluídas, atualizações de status de entrega, reembolsos, criação de anúncios por vendedores e outras operações que impactem o histórico do pedido) devem ser registradas na blockchain automaticamente.
 - [ ] O administrador deve ter acesso a um painel ou mecanismo de consulta que permita verificar o status de cada transação registrada (confirmada, pendente, falha).
 - [ ] Caso uma transação falhe ao ser registrada na blockchain, o sistema deve armazená-la como pendente e realizar novas tentativas automáticas de registro a cada 3 horas, por no máximo 5 vezes. Caso a transação continue falhando, o sistema deve notificá-la como erro crítico no painel administrativo.
 
