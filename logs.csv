@@ -1,0 +1,69 @@
+Commit;Author;Date;Message
+1dda932153382c5f9e665402a0588788a321afac Merge: cee43b0 924da9e;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sun Jun 29 13:12:54 2025 -0300;Merge branch 'estudante'
+cee43b01a9fc02fefb8d98031baa00c2befca4f2;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sun Jun 29 13:12:30 2025 -0300;update repository
+924da9e736a7575fab81464983d3a10f96d6a080;Joseppe Fellini <117702056+jongas124@users.noreply.github.com>;Thu Jun 26 01:12:56 2025 -0300;add slides
+b3fbc9e13b337fb658ac95ece69d5f0199be9396;omega050 <mauro-jr50@hotmail.com>;Sat May 31 15:33:21 2025 -0300;feat: adiciona HU10 (Houve um problema de comunicação entre os membros do grupo)
+888e83f51b47e909bebb627627ac749b7f6ce946;omega050 <mauro-jr50@hotmail.com>;Thu May 29 08:40:26 2025 -0300;feat: adiciona atributos 'statusVerificacao' em Vendedor e 'tipo' em TransaçaoBlockChain
+040833e835e09859172a98f89cc834400da2c86a;omega050 <mauro-jr50@hotmail.com>;Thu May 29 08:34:37 2025 -0300;refactor: atualiza critérios de aceitação nas histórias de usuário 2, 3, 4 e 7 para maior clareza e detalhamento
+7fff910f2e428a77eab9a94a696337f472b06baf;Felipe Moreira <104106285+felipemoreira07@users.noreply.github.com>;Wed May 28 19:29:18 2025 -0300;feat: adiciona hu3.md
+88bdbb14ca44f268944d708fb1b535c4a60a4a7a;omega050 <mauro-jr50@hotmail.com>;Wed May 28 18:05:27 2025 -0300;Pequenas correções
+e777af01723849901e8d8cb7fe8fcd7efded9d05;Mauro Sérgio <131288294+Omega050@users.noreply.github.com>;Tue May 27 21:06:27 2025 -0300;Update hu1.md
+09d51b7949164cd1fb445cae3abd0e8d71cf1981;Abraao Santiago <109002618+abraao8401@users.noreply.github.com>;Tue May 27 20:38:02 2025 -0300;Create hu7.md
+b226d00b1211daec04dc5d74f3ffff9f78535529;Mauro Sérgio <131288294+Omega050@users.noreply.github.com>;Tue May 27 20:15:58 2025 -0300;Iniciando a h1
+e53fd172052e2a32b8de7ae115ad7b66dd67117e;Joseppe Fellini <117702056+jongas124@users.noreply.github.com>;Tue May 27 19:42:32 2025 -0300;feat: create hu5.md
+89727493ae3f661c88b51a4aa4b1c5069e6c8ea5;omega050 <mauro-jr50@hotmail.com>;Mon May 26 18:33:31 2025 -0300;Pequenas alterações
+63edfcd735275a20db4c6158b158632b541dfa47;omega050 <mauro-jr50@hotmail.com>;Mon May 26 18:30:11 2025 -0300;Correções no diagrama de classe
+6bb4ed97601e7fc17ad7a6751e2c75f927943a4b;omega050 <mauro-jr50@hotmail.com>;Mon May 26 15:00:14 2025 -0300;Removendo os tipos primitivos
+2aa7a419ef582196d53b2c9c9bd7c94d01799a4d;omega050 <mauro-jr50@hotmail.com>;Mon May 26 14:50:49 2025 -0300;Adicionando atributos ao diagrama de classe
+d916e02d68099a0a333f1c829972e7f9d3c69568;omega050 <mauro-jr50@hotmail.com>;Mon May 26 13:44:20 2025 -0300;Pequenas correções na formatação.
+b8313880cab97edc8c2ebb61aceef235b5a8ec30;Frederico Garcêz <129754520+Frederico03@users.noreply.github.com>;Mon May 26 00:30:43 2025 -0300;Update hu9.md
+6382cbfff65b17ae30b06d30624639946ec6364f;omega050 <mauro-jr50@hotmail.com>;Thu May 22 18:29:54 2025 -0300;Atividade 9 com referencia das Hus
+67bbd38bfa1f6312f283284d2ae5855282f0b88a Merge: 314ddc8 1e10d72;omega050 <mauro-jr50@hotmail.com>;Tue May 20 13:31:49 2025 -0300;Merge branch 'estudante' of https://github.com/gilmarUFG/rs_es_20251_g4 into estudante
+314ddc805c60f36cda133f2cf340ad24ae7ce7d1;omega050 <mauro-jr50@hotmail.com>;Tue May 20 13:31:45 2025 -0300;Renomeando arquivo do diagrama de classes
+1e10d7292aae83d2cc4ad4e515d556b287169a19 Merge: 2f9c8d7 d70be3c;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sun May 18 11:56:29 2025 -0300;Merge branch 'estudante'
+d70be3cdd2216ebede70d6a8aa0c48c3c03e1a9a;Joseppe Fellini <117702056+jongas124@users.noreply.github.com>;Wed May 14 16:49:33 2025 -0300;fix: format title
+c0ff1d04c107c85f557995248802c59b01b5d283;Joseppe Fellini <117702056+jongas124@users.noreply.github.com>;Wed May 14 16:46:33 2025 -0300;tradutor
+99f04b50a08d383b8c56cae472e846c73385fbf5;Abraao Santiago <109002618+abraao8401@users.noreply.github.com>;Mon May 12 21:39:39 2025 -0300;Update hu8.md
+64e2bf7488464a461fa4dc60644c2b3ec6d24dfb;Abraao Santiago <109002618+abraao8401@users.noreply.github.com>;Mon May 12 21:38:47 2025 -0300;Update hu8.md
+36113de6b08c4ff86d52a3301cc92de4a20a2aba;Abraao Santiago <109002618+abraao8401@users.noreply.github.com>;Mon May 12 21:38:33 2025 -0300;Update hu8.md
+2f9c8d746a11585c8c8b6917bab54f4fdb91a41d Merge: a39d8f4 0a64677;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Mon May 12 18:48:58 2025 -0300;Merge branch 'estudante'
+0a646770dce0ea264b57d1cdbe2463a51850f310;Felipe Moreira <104106285+felipemoreira07@users.noreply.github.com>;Mon May 12 14:56:20 2025 -0300;feat: adiciona hu 2
+45504203ae78bd4ae7683540b307e33a96d9abe9;omega050 <mauro-jr50@hotmail.com>;Mon May 12 14:03:16 2025 -0300;Correção no título da HU6
+719e56f58873f6171e8533ef9d2f247d5f81a369;Joseppe Fellini <117702056+jongas124@users.noreply.github.com>;Sun May 11 15:42:20 2025 -0300;feat: add orientation message
+c05ebd46a9bbc62bc9b9babfa0b7e88eb2cab3ff;Joseppe Fellini <117702056+jongas124@users.noreply.github.com>;Sun May 11 15:28:49 2025 -0300;feat: add as5
+b28a1b5ff79375e78841f97ef5dcd6be546d96d3 Merge: 5612c87 7b3fb8e;jongas124 <kossos124@gmail.com>;Thu May 8 21:52:16 2025 -0300;Merge branch 'estudante' of https://github.com/gilmarUFG/rs_es_20251_g4 into estudante
+7b3fb8e4350f6e8abe9d2c7f222bc3d3c2c0c10c;Mauro Sérgio <131288294+Omega050@users.noreply.github.com>;Thu May 8 21:31:10 2025 -0300;Problemas com o salvamento automatico
+d81480eaf11eb16a6fa557a35d7e5d67ab106f51;Mauro Sérgio <131288294+Omega050@users.noreply.github.com>;Thu May 8 21:27:56 2025 -0300;Estruturando a matriz de rastreabilidade
+bc5e8883004317cffb3717e1998d531d0e2e9887;omega050 <mauro-jr50@hotmail.com>;Tue May 6 15:29:27 2025 -0300;Desenvolvimento do diagrama de classe
+5612c87f6a6aa6650f801c1ffaab61cac1038869 Merge: 672a2f0 ba26e6c;jongas124 <kossos124@gmail.com>;Mon May 5 23:22:39 2025 -0300;Merge branch 'estudante' of https://github.com/gilmarUFG/rs_es_20251_g4 into estudante
+672a2f0436381e4ab92c5129131d212c09d31c6d;jongas124 <kossos124@gmail.com>;Mon May 5 23:22:33 2025 -0300;Update hu6.md
+ba26e6c069c8e31d12f978456d64679aee346f52;omega050 <mauro-jr50@hotmail.com>;Mon May 5 22:15:58 2025 -0300;Atualização do diagrama de classe
+9acccd9d8b2ddf1e2151f80bcfb90e41f9bf3924 Merge: 5846547 b93d6bf;omega050 <mauro-jr50@hotmail.com>;Tue Apr 29 19:19:09 2025 -0300;Merge branch 'estudante' of https://github.com/gilmarUFG/rs_es_20251_g4 into estudante
+58465476eb35e9c662939fd16d39bbc87bef1ab2;omega050 <mauro-jr50@hotmail.com>;Tue Apr 29 19:19:05 2025 -0300;Começando o diagrama de classe
+b93d6bf3077c495d0d3bf9311c22e5029a64607a;Mauro Sérgio <131288294+Omega050@users.noreply.github.com>;Tue Apr 29 15:54:52 2025 -0300;Update hu4.md
+d2b75ee5b215aae3980b7407f8480d5cb8b005ef;omega050 <mauro-jr50@hotmail.com>;Tue Apr 29 15:54:13 2025 -0300;Pequena correção na HU4
+b1655acaeaa8d3017d813a794c1065b8d25784a6;omega050 <mauro-jr50@hotmail.com>;Tue Apr 29 15:52:58 2025 -0300;HU 4 atualizada
+6fddaf49b0e86005a21d81477444e9f4e7fd753c;omega050 <mauro-jr50@hotmail.com>;Tue Apr 29 15:48:37 2025 -0300;HU4 Feita
+c56dc85e3d493f2748eb2851e957c5a581df4ce6;omega050 <mauro-jr50@hotmail.com>;Tue Apr 29 09:56:13 2025 -0300;Definição dos requisitos para o trabalho final
+a39d8f46df4cb86a2806845eb2282fb31e5b45fc;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sat Apr 26 15:07:18 2025 -0300;update repository
+766dc332919680479ee9f45cd2705075b50544cc;Abraao Santiago <109002618+abraao8401@users.noreply.github.com>;Tue Apr 22 20:27:21 2025 -0300;Update ae_aula07Abraao.md
+c23ccb8cf6dafe1a12695bc237453d7214642f34;Felipe Moreira <104106285+felipemoreira07@users.noreply.github.com>;Tue Apr 22 20:16:03 2025 -0300;fix: edita atividade extraordinaria
+98b5eb0045bec0ac19be332fd545887506c0ab6e;Felipe Moreira <104106285+felipemoreira07@users.noreply.github.com>;Tue Apr 22 20:14:31 2025 -0300;feat: adiciona atividade extraordinaria da aula 7
+6df8379931f949cb9029c1d06e96c10b4f5304d3;Abraao Santiago <109002618+abraao8401@users.noreply.github.com>;Tue Apr 22 19:45:30 2025 -0300;Add files via upload
+cac4797d5a9945980e4cb2c246c712c016b6e243;Joseppe Fellini <117702056+jongas124@users.noreply.github.com>;Mon Apr 21 22:43:31 2025 -0300;feat: add atividade aula 7
+d2f7d4f4dfebf4ab766d4393cb8d978fe2403660;Mauro Sérgio <131288294+Omega050@users.noreply.github.com>;Mon Apr 21 10:10:56 2025 -0300;Consertando as imagens
+7c83756ee805db7d94976b0b054ecb380a9de25e;Mauro Sérgio <131288294+Omega050@users.noreply.github.com>;Mon Apr 21 09:53:58 2025 -0300;Add files via upload
+d386ded3f8862848806a8bc5814c7d3c05904239;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Apr 18 17:11:51 2025 -0300;update repository
+3df1c56207a96a29dcbc9daa2bdbfe9d767a7188;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Apr 18 11:24:37 2025 -0300;update repository
+2388b79c49d23e8b95d8d790579e9f8650e8c639;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Thu Apr 17 19:02:20 2025 -0300;update repository
+f2a706844a0c7068d775410ef91c691255cb3a36;Frederico Garcêz <129754520+Frederico03@users.noreply.github.com>;Wed Apr 16 13:13:21 2025 -0300;Add files via upload
+881797f7c4b556e91927b9c11b969c27827aa9c7;Joseppe Fellini <117702056+jongas124@users.noreply.github.com>;Thu Apr 10 21:52:25 2025 -0300;Refinamento dos requisitos
+f9951aabf07c2034f65fefc9e9393349ea4e52e9 Merge: cc11066 8c54bac;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sat Mar 29 11:55:39 2025 -0300;Merge branch 'main' into estudante
+cc110660a0ff9a4ea030a791fce04099e4e2b342;Abraao Santiago <109002618+abraao8401@users.noreply.github.com>;Thu Mar 27 21:18:55 2025 -0300;Add files via upload
+8c54bac490c0e07a42ca87b199ba22993a7d64a7 Merge: 6fcab2d d83bd54;Gilmar Ferreira Arantes <130784207+gilmarUFG@users.noreply.github.com>;Fri Mar 21 18:44:19 2025 -0300;Merge pull request #2 from gilmarUFG/estudante Add files via upload
+6fcab2da1d274bd5ddbf18ae46a247354cf82796 Merge: 3d6fc4b 5eb7236;Gilmar Ferreira Arantes <130784207+gilmarUFG@users.noreply.github.com>;Fri Mar 21 18:43:37 2025 -0300;Merge pull request #1 from gilmarUFG/abraao8401-patch-1 Add files via upload
+d83bd543cfe378467806bc843fa799f26a949455;Abraao Santiago <109002618+abraao8401@users.noreply.github.com>;Thu Mar 20 21:31:21 2025 -0300;Add files via upload
+5eb72367a2a2a5af343ec61e309b772a9d71be2a;Abraao Santiago <109002618+abraao8401@users.noreply.github.com>;Thu Mar 20 21:30:10 2025 -0300;Add files via upload
+3d6fc4b59f9c1eb75c23207b70c36c64aefa4948;jongas124 <117702056+jongas124@users.noreply.github.com>;Thu Mar 13 21:38:06 2025 -0300;tarefa 01 - grupo
+5c01efb841130a36dc523887b224fb3b3b1bd19d;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Feb 28 17:07:45 2025 -0300;Update README.md file.
+e75cadf31be71701eb0822ac8bc9238fc196b4d8;Gilmar Ferreira Arantes <130784207+gilmarUFG@users.noreply.github.com>;Fri Feb 28 12:04:18 2025 -0300;Initial commit
